@@ -1,0 +1,13 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 1000' role='img' aria-label='Gift Kit'>
+  <defs>
+    <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#f8e0df'/>
+      <stop offset='100%' stop-color='#e8c5c8'/>
+    </linearGradient>
+  </defs>
+  <rect width='800' height='1000' fill='url(#g)' rx='36'/>
+  <circle cx='400' cy='340' r='140' fill='rgba(255,255,255,0.45)'/>
+  <rect x='240' y='500' width='320' height='240' rx='32' fill='rgba(255,255,255,0.72)'/>
+  <text x='400' y='840' text-anchor='middle' font-family='Georgia, serif' font-size='44' fill='#4f3f54'>Gift Kit</text>
+  <text x='400' y='890' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='#6b5a6f'>Bella Aura Atelier</text>
+</svg>
