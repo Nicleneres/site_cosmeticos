@@ -1,0 +1,43 @@
+[
+  {
+    "id": "k001",
+    "name": "Kit Glow Essencial",
+    "description": "Sérum vitamina C + hidratante facial + nécessaire exclusiva.",
+    "price": 149.9,
+    "originalPrice": 198.9,
+    "giftHighlight": "Acompanha nécessaire premium para presente",
+    "image": "https://picsum.photos/seed/kit-glow-essencial/720/480",
+    "isFeatured": true
+  },
+  {
+    "id": "k002",
+    "name": "Kit Make Rosé Completo",
+    "description": "Base, batom matte e paleta nude com valor promocional.",
+    "price": 189.9,
+    "originalPrice": 244.7,
+    "giftHighlight": "Ideal para presentear quem ama maquiagem",
+    "image": "https://picsum.photos/seed/kit-make-rose/720/480",
+    "isFeatured": true
+  },
+  {
+    "id": "k003",
+    "name": "Kit Spa em Casa",
+    "description": "Esfoliante corporal + hidratante amêndoas + body splash.",
+    "price": 129.9,
+    "originalPrice": 169.7,
+    "giftHighlight": "Vem com embalagem delicada pronta para presente",
+    "image": "https://picsum.photos/seed/kit-spa-casa/720/480",
+    "isFeatured": false
+  },
+  {
+    "id": "k004",
+    "name": "Kit Cabelos de Seda",
+    "description": "Máscara nutri brilho + óleo reparador para fios alinhados.",
+    "price": 94.9,
+    "originalPrice": 118.8,
+    "giftHighlight": "Perfeito para autocuidado e presente de última hora",
+    "image": "https://picsum.photos/seed/kit-cabelos-seda/720/480",
+    "isFeatured": false
+  }
+]
+

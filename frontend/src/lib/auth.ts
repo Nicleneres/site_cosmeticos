@@ -1,9 +1,15 @@
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import { compare } from "bcryptjs";
-import { prisma } from "@/lib/prisma";
+
+const isProduction = process.env.NODE_ENV === "production";
+const authSecret =
+  process.env.NEXTAUTH_SECRET ??
+  process.env.AUTH_SECRET ??
+  (isProduction ? undefined : "dev-only-secret-change-me");
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
+  secret: authSecret,
   session: {
     strategy: "jwt"
   },
@@ -18,10 +24,21 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         password: { label: "Senha", type: "password" }
       },
       async authorize(credentials) {
+        if (!process.env.DATABASE_URL) {
+          if (!isProduction) {
+            console.warn(
+              "[auth] DATABASE_URL não configurado. Login administrativo ficará indisponível até configurar o banco."
+            );
+          }
+          return null;
+        }
+
         const email = credentials?.email?.toString().trim().toLowerCase();
         const password = credentials?.password?.toString();
 
         if (!email || !password) return null;
+
+        const { prisma } = await import("@/lib/prisma");
 
         const user = await prisma.user.findUnique({
           where: { email }

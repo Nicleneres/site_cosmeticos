@@ -1,0 +1,241 @@
+[
+  {
+    "id": "p001",
+    "name": "Base Líquida Efeito Seda 30ml",
+    "shortDescription": "Cobertura média, acabamento natural e confortável.",
+    "description": "Base com textura leve e acabamento aveludado para deixar a pele uniforme por horas.",
+    "benefits": [
+      "Cobertura construível sem pesar",
+      "Controle de brilho por até 8 horas",
+      "Não marca linhas finas"
+    ],
+    "price": 69.9,
+    "oldPrice": 84.9,
+    "discountPercent": 18,
+    "category": "Maquiagem",
+    "image": "https://picsum.photos/seed/base-seda/640/640",
+    "isNew": true
+  },
+  {
+    "id": "p002",
+    "name": "Batom Matte Rosé Chic",
+    "shortDescription": "Cor elegante com alta fixação e toque macio.",
+    "description": "Batom matte confortável com pigmentação intensa e fórmula que não resseca.",
+    "benefits": [
+      "Pigmentação uniforme já na primeira passada",
+      "Longa duração",
+      "Acabamento sofisticado"
+    ],
+    "price": 39.9,
+    "oldPrice": 49.9,
+    "discountPercent": 20,
+    "category": "Maquiagem",
+    "image": "https://picsum.photos/seed/batom-rose/640/640",
+    "isNew": false
+  },
+  {
+    "id": "p003",
+    "name": "Paleta Nude Glam 12 Cores",
+    "shortDescription": "Tons nudes e cintilantes para todas as ocasiões.",
+    "description": "Paleta com combinação de tons clássicos e modernos para makes do dia e da noite.",
+    "benefits": [
+      "Alta pigmentação",
+      "Esfumado fácil",
+      "Textura sedosa"
+    ],
+    "price": 89.9,
+    "oldPrice": 0,
+    "discountPercent": 0,
+    "category": "Maquiagem",
+    "image": "https://picsum.photos/seed/paleta-nude/640/640",
+    "isNew": true
+  },
+  {
+    "id": "p004",
+    "name": "Sérum Vitamina C Glow 30ml",
+    "shortDescription": "Ilumina e melhora a textura da pele.",
+    "description": "Sérum antioxidante para rotina diária, com rápida absorção e toque seco.",
+    "benefits": [
+      "Pele mais radiante",
+      "Uniformiza o tom",
+      "Ajuda a prevenir sinais de cansaço"
+    ],
+    "price": 79.9,
+    "oldPrice": 94.9,
+    "discountPercent": 16,
+    "category": "Skincare",
+    "image": "https://picsum.photos/seed/serum-vitc/640/640",
+    "isNew": true
+  },
+  {
+    "id": "p005",
+    "name": "Hidratante Noturno Pele Radiante",
+    "shortDescription": "Nutrição intensa enquanto você dorme.",
+    "description": "Creme facial noturno com ativos hidratantes para acordar com a pele macia e viçosa.",
+    "benefits": [
+      "Hidratação prolongada",
+      "Sensação de pele macia",
+      "Textura cremosa de rápida absorção"
+    ],
+    "price": 64.9,
+    "oldPrice": 0,
+    "discountPercent": 0,
+    "category": "Skincare",
+    "image": "https://picsum.photos/seed/hidratante-noite/640/640",
+    "isNew": false
+  },
+  {
+    "id": "p006",
+    "name": "Gel de Limpeza Suave 150ml",
+    "shortDescription": "Limpa sem ressecar, ideal para uso diário.",
+    "description": "Gel de limpeza facial com espuma suave para remover impurezas mantendo a barreira da pele.",
+    "benefits": [
+      "Sensação de frescor imediato",
+      "Não resseca",
+      "Perfeito para rotina manhã e noite"
+    ],
+    "price": 45.9,
+    "oldPrice": 54.9,
+    "discountPercent": 16,
+    "category": "Skincare",
+    "image": "https://picsum.photos/seed/gel-limpeza/640/640",
+    "isNew": false
+  },
+  {
+    "id": "p007",
+    "name": "Perfume Floral Lumine 75ml",
+    "shortDescription": "Fragrância feminina marcante e delicada.",
+    "description": "Notas florais com fundo amadeirado suave para um perfume elegante e versátil.",
+    "benefits": [
+      "Fixação prolongada",
+      "Aroma sofisticado",
+      "Ideal para dia e noite"
+    ],
+    "price": 119.9,
+    "oldPrice": 149.9,
+    "discountPercent": 20,
+    "category": "Perfumes",
+    "image": "https://picsum.photos/seed/perfume-floral/640/640",
+    "isNew": true
+  },
+  {
+    "id": "p008",
+    "name": "Body Splash Vanilla Gold 200ml",
+    "shortDescription": "Perfume leve para reaplicar ao longo do dia.",
+    "description": "Body splash com toque doce de baunilha e notas quentes, perfeito para pós-banho.",
+    "benefits": [
+      "Aroma confortável",
+      "Sensação de banho tomado",
+      "Frasco prático para bolsa"
+    ],
+    "price": 56.9,
+    "oldPrice": 0,
+    "discountPercent": 0,
+    "category": "Perfumes",
+    "image": "https://picsum.photos/seed/body-splash/640/640",
+    "isNew": false
+  },
+  {
+    "id": "p009",
+    "name": "Máscara Capilar Nutri Brilho 300g",
+    "shortDescription": "Nutrição profunda para fios opacos.",
+    "description": "Máscara de tratamento com óleos nutritivos para cabelos mais brilhantes e alinhados.",
+    "benefits": [
+      "Reduz frizz",
+      "Maciez intensa",
+      "Brilho visível desde a primeira aplicação"
+    ],
+    "price": 58.9,
+    "oldPrice": 69.9,
+    "discountPercent": 15,
+    "category": "Cabelos",
+    "image": "https://picsum.photos/seed/mascara-capilar/640/640",
+    "isNew": true
+  },
+  {
+    "id": "p010",
+    "name": "Óleo Reparador Pontas de Seda 60ml",
+    "shortDescription": "Finalização com brilho e proteção térmica.",
+    "description": "Óleo reparador leve para pontas secas, com toque seco e efeito anti-frizz.",
+    "benefits": [
+      "Proteção térmica",
+      "Controle de frizz",
+      "Brilho sem pesar"
+    ],
+    "price": 49.9,
+    "oldPrice": 59.9,
+    "discountPercent": 16,
+    "category": "Cabelos",
+    "image": "https://picsum.photos/seed/oleo-reparador/640/640",
+    "isNew": false
+  },
+  {
+    "id": "p011",
+    "name": "Hidratante Corporal Amêndoas Rosé",
+    "shortDescription": "Hidratação intensa com fragrância sofisticada.",
+    "description": "Loção corporal com textura cremosa que deixa a pele macia e perfumada o dia todo.",
+    "benefits": [
+      "Toque aveludado",
+      "Fragrância elegante",
+      "Fácil absorção"
+    ],
+    "price": 42.9,
+    "oldPrice": 52.9,
+    "discountPercent": 19,
+    "category": "Corpo",
+    "image": "https://picsum.photos/seed/hidratante-corpo/640/640",
+    "isNew": false
+  },
+  {
+    "id": "p012",
+    "name": "Esfoliante Corporal Dourado 200g",
+    "shortDescription": "Renovação suave e pele luminosa.",
+    "description": "Esfoliante corporal com partículas finas para remover células mortas e revelar maciez.",
+    "benefits": [
+      "Pele mais lisa",
+      "Perfume delicado",
+      "Sensação de spa em casa"
+    ],
+    "price": 47.9,
+    "oldPrice": 0,
+    "discountPercent": 0,
+    "category": "Corpo",
+    "image": "https://picsum.photos/seed/esfoliante/640/640",
+    "isNew": true
+  },
+  {
+    "id": "p013",
+    "name": "Mini Kit Glow Rápido",
+    "shortDescription": "Kit prático com skincare e make para o dia a dia.",
+    "description": "Combinação enxuta de itens essenciais para pele hidratada e maquiagem leve.",
+    "benefits": [
+      "Ótimo para presentear",
+      "Preço especial de kit",
+      "Itens versáteis"
+    ],
+    "price": 99.9,
+    "oldPrice": 129.9,
+    "discountPercent": 23,
+    "category": "Kits",
+    "image": "https://picsum.photos/seed/mini-kit-glow/640/640",
+    "isNew": true
+  },
+  {
+    "id": "p014",
+    "name": "Kit Presente Delicado",
+    "shortDescription": "Perfume + hidratante com embalagem para presente.",
+    "description": "Kit premium com fragrância feminina e hidratante corporal em caixa especial.",
+    "benefits": [
+      "Pronto para presentear",
+      "Combinação de sucesso",
+      "Excelente custo-benefício"
+    ],
+    "price": 149.9,
+    "oldPrice": 189.9,
+    "discountPercent": 21,
+    "category": "Kits",
+    "image": "https://picsum.photos/seed/kit-presente/640/640",
+    "isNew": false
+  }
+]
+
